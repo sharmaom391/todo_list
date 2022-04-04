@@ -1,1 +1,1 @@
-web: gunicorn urlshortner.wsgi:application --log-file -
+web: gunicorn todo_list.wsgi:application --log-file -
